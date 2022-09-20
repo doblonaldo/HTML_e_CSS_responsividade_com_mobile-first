@@ -95,4 +95,11 @@
     .cabecalho__menu-hamburguer{
         display: none;
     }
+    .opcoes__menu:checked ~ .lista-menu{
+        display: block;
+        width: auto;
+    }
+    .opcoes__menu{
+        display: none;
+    }
 }
